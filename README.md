@@ -2,6 +2,12 @@
 
 ---
 
+This Python package provides tools to annotate spectrogram images of seizure episodes.
+
+📦 **PyPI**: [seizure-timefreqroi-annotator](https://pypi.org/project/seizure-timefreqroi-annotator/)
+
+---
+
 ### 📑 Table of Contents
 1. [Installation](#-installation)
 2. [Annotation Interface Preview](#annotation-interface-preview)
@@ -14,11 +20,6 @@
 4. [Example of Annotations](#example-of-annotations)
 5. [The Original Images Dataset](#-the-original-images-dataset-and-the-default-labels)
 6. [Run Annotation GUI (Quick Start)](#️-run-annotation-gui-quick-start)
-
----
-This Python package provides tools to annotate spectrogram images of seizure episodes.
-
-📦 **PyPI**: [seizure-timefreqroi-annotator](https://pypi.org/project/seizure-timefreqroi-annotator/)
 
 ---
 
