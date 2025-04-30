@@ -20,6 +20,7 @@ This Python package provides tools to annotate spectrogram images of seizure epi
 4. [Example of Annotations](#example-of-annotations)
 5. [The Original Images Dataset](#-the-original-images-dataset-and-the-default-labels)
 6. [Run Annotation GUI (Quick Start)](#️-run-annotation-gui-quick-start)
+7. [Use Case: Fine-Tuning ViT for Automated ROI Detection](#use-case-fine-tuning-vit-for-automated-roi-detection-in-spectrograms)
 
 ---
 
@@ -113,6 +114,15 @@ collect_annotations(dataset, output_file)
 print(f'Annotations saved to {os.path.basename(output_file)}')
 "
 ```
+
+---
+
+### Use Case: Fine-Tuning ViT for Automated ROI Detection in Spectrograms
+
+Labeled spectrogram images can be used to automate Region of Interest (ROI) detection through fine-tuning. The script UseCase/FineTuning_ViT_on_SpectrogramImages.py implements a Vision Transformer (ViT) model enhanced with Low-Rank Adaptation (LoRA) for this task. The model performs both classification and regression to identify and localize ROIs while generating attention maps and visualizations for interpretability.
+
+```bash
+UseCase/FineTuning_ViT_on_SpectrogramImages.py
 
 ---
 
