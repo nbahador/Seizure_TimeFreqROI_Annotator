@@ -1,4 +1,4 @@
-## Seizure Time-Frequency ROI Annotator
+### Seizure Time-Frequency ROI Annotator
 
 This Python package provides tools to annotate spectrogram images of seizure episodes.
 
