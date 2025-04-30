@@ -1,4 +1,4 @@
-# Seizure Time-Frequency ROI Annotator
+## Seizure Time-Frequency ROI Annotator
 
 This Python package provides tools to annotate spectrogram images of seizure episodes.
 
@@ -6,7 +6,7 @@ This Python package provides tools to annotate spectrogram images of seizure epi
 
 ---
 
-## 📦 Installation
+### 📦 Installation
 
 Install the package using pip:
 
@@ -15,7 +15,7 @@ pip install seizure-timefreqroi-annotator
 ```
 ---
 
-## Annotation Interface Preview
+### Annotation Interface Preview
 
 <p>
   <img src="Seizure_TimeFreqROI_Annotator/Img/Ann_Gui.png" alt="Annotation GUI 1" width="49%" style="display: inline-block; border: 1px solid #ccc; padding: 4px; margin-right: 1%;">
@@ -24,11 +24,16 @@ pip install seizure-timefreqroi-annotator
 
 ---
 
+### ▶️ Run Annotation GUI (Quick Start)
+You can run the annotation tool directly from the command line using this one-liner (replace the paths with your local installed package path):
+
 ```python
 python -c "from Seizure_TimeFreqROI_Annotator.datasets import SpectrogramDataset; from Seizure_TimeFreqROI_Annotator.annotator import collect_annotations; dataset = SpectrogramDataset(r'C:\Users\Nooshin\myenv\Lib\site-packages\Seizure_TimeFreqROI_Annotator\assets\sample_spectrograms'); print(f'Loaded {len(dataset.image_files)} images'); collect_annotations(dataset, r'C:\Users\Nooshin\myenv\Lib\site-packages\Seizure_TimeFreqROI_Annotator\assets\labels\annotations.xlsx'); print('Annotations saved')"
 ```
 
 ---
+### ▶️ Run Annotation GUI (Quick Start)
+You can run the annotation tool directly from the command line using this one-liner (replace the paths with your local installed package path):
 
 ```python
 python -c "
