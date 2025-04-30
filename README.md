@@ -45,9 +45,9 @@ pip install seizure-timefreqroi-annotator
 > #### 5. **What Happens Next**
 > - Every action you take—whether drawing a bounding box or selecting "No ROI"—will automatically generate a corresponding entry in the `annotations.xlsx` file.
 > - This file will include the following data:
-> - **Image filename**
-> - **Coordinates of the bounding box** (if applicable)
-> - **Flag indicating whether there was an ROI** (Yes/No)
+>   - **Image filename**
+>   - **Coordinates of the bounding box** (if applicable)
+>   - **Flag indicating whether there was an ROI** (TRUE/FALSE)
 
 
 ### Example of Annotations
