@@ -15,6 +15,12 @@ pip install seizure-timefreqroi-annotator
 ```
 ---
 
+## 🖼️ Annotation Interface Preview
+
+<img src="Seizure_TimeFreqROI_Annotator/Img/Ann_Gui.png" alt="Annotation GUI" width="50%">
+
+---
+
 ```python
 python -c "from Seizure_TimeFreqROI_Annotator.datasets import SpectrogramDataset; from Seizure_TimeFreqROI_Annotator.annotator import collect_annotations; dataset = SpectrogramDataset(r'C:\Users\Nooshin\myenv\Lib\site-packages\Seizure_TimeFreqROI_Annotator\assets\sample_spectrograms'); print(f'Loaded {len(dataset.image_files)} images'); collect_annotations(dataset, r'C:\Users\Nooshin\myenv\Lib\site-packages\Seizure_TimeFreqROI_Annotator\assets\labels\annotations.xlsx'); print('Annotations saved')"
 ```
