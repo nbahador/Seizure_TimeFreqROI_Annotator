@@ -1,5 +1,21 @@
 ### Seizure Time-Frequency ROI Annotator
 
+---
+
+### 📑 Table of Contents
+1. [Installation](#-installation)
+2. [Annotation Interface Preview](#annotation-interface-preview)
+3. [Image Annotation Process](#image-annotation-process)
+   - [1. Draw the Bounding Box](#1-draw-the-bounding-box-if-theres-a-region-of-interest---roi)
+   - [2. Click "Done"](#2-click-done)
+   - [3. Move to the Next Image](#3-move-to-the-next-image)
+   - [4. No ROI (If Applicable)](#4-no-roi-if-applicable)
+   - [5. What Happens Next](#5-what-happens-next)
+4. [Example of Annotations](#example-of-annotations)
+5. [The Original Images Dataset](#-the-original-images-dataset-and-the-default-labels)
+6. [Run Annotation GUI (Quick Start)](#️-run-annotation-gui-quick-start)
+
+---
 This Python package provides tools to annotate spectrogram images of seizure episodes.
 
 📦 **PyPI**: [seizure-timefreqroi-annotator](https://pypi.org/project/seizure-timefreqroi-annotator/)
@@ -29,6 +45,7 @@ pip install seizure-timefreqroi-annotator
 > #### 1. **Draw the Bounding Box (If There’s a Region of Interest - ROI)**
 > - If the image contains an area you want to annotate, use the annotation tool to **draw a bounding box** around the region of interest (ROI).
 > - Ensure the bounding box accurately covers the entire area that requires marking.
+> - The y-axis displays the frequency range from 1 to 60 Hz, and the x-axis shows the time range from 0 to 60 seconds (based on the default range of the spectrogram image dataset).
 > 
 > #### 2. **Click “Done”**
 > - After drawing the bounding box around the ROI, click on the **"Done"** button to confirm the annotation.
