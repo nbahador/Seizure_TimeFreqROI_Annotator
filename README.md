@@ -24,6 +24,11 @@ pip install seizure-timefreqroi-annotator
 
 ---
 
+### 📂 The Original Images Dataset and the Default Labels
+The original images dataset and the default labels are also available in the Seizure_TimeFreqROI_Annotator/assets directory.
+
+---
+
 ### ▶️ Run Annotation GUI (Quick Start)
 You can run the annotation tool directly from the command line using this one-liner (replace the paths with your local installed package path):
 
