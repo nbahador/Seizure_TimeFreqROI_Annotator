@@ -126,5 +126,7 @@ UseCase/FineTuning_ViT_on_SpectrogramImages.py
 
 ```
 
+Note: Replace the paths with your local installed package path
+
 ---
 
