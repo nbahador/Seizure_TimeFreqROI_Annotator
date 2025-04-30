@@ -1,0 +1,4 @@
+include spectralvision/configs/*.yaml
+include spectralvision/assets/sample_spectrograms/*
+include spectralvision/assets/labels/*
+recursive-include spectralvision *.py

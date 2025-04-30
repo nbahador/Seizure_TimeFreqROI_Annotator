@@ -1,0 +1,10 @@
+data:
+  image_dir: "data/spectrograms"
+  labels_path: "data/annotations/spectrogram_annotations.xlsx"
+  image_size: 224
+  batch_size: 32
+  freq_range: [1, 60]
+  time_range: [0, 60]
+
+output:
+  output_dir: "results"
