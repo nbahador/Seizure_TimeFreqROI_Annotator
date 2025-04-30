@@ -17,7 +17,10 @@ pip install seizure-timefreqroi-annotator
 
 ## 🖼️ Annotation Interface Preview
 
-<img src="Seizure_TimeFreqROI_Annotator/Img/Ann_Gui.png" alt="Annotation GUI" width="50%">
+<p>
+  <img src="Seizure_TimeFreqROI_Annotator/Img/Ann_Gui.png" alt="Annotation GUI 1" width="49%" style="display: inline-block; border: 1px solid #ccc; padding: 4px; margin-right: 1%;">
+  <img src="Seizure_TimeFreqROI_Annotator/Img/Ann_Gui2.png" alt="Annotation GUI 2" width="49%" style="display: inline-block; border: 1px solid #ccc; padding: 4px;">
+</p>
 
 ---
 
