@@ -84,10 +84,20 @@ pip install seizure-timefreqroi-annotator
 ---
 
 ### 📂 The Original Images Dataset and the Default Labels
-The original images dataset and the default labels are available in the Seizure_TimeFreqROI_Annotator/assets directory.
+The original images dataset and the default labels are available in: 
 
-Spectrogram images were generated from recordings of spontaneous recurrent seizures in a mouse model of extended hippocampal kindling.
-Ref: Liu H, Tufa U, Zahra A, Chow J, Sivanenthiran N, Cheng C, Liu Y, Cheung P, Lim S, Jin Y, Mao M, Sun Y, Wu C, Wennberg R, Bardakjian B, Carlen PL, Eubanks JH, Song H, Zhang L. (2021). Electrographic Features of Spontaneous Recurrent Seizures in a Mouse Model of Extended Hippocampal Kindling. Cereb Cortex Commun. 2021 Jan 22;2(1):tgab004. doi: 10.1093/texcom/tgab004. PMID: 34296153; PMCID: PMC8152854.
+```bash
+Seizure_TimeFreqROI_Annotator/assets directory.
+```
+
+> **Spectrogram images** were generated from recordings of spontaneous recurrent seizures in a mouse model of extended hippocampal kindling.
+
+**Reference**:  
+Liu H, Tufa U, Zahra A, Chow J, Sivanenthiran N, Cheng C, Liu Y, Cheung P, Lim S, Jin Y, Mao M, Sun Y, Wu C, Wennberg R, Bardakjian B, Carlen PL, Eubanks JH, Song H, Zhang L.  
+(2021). *Electrographic Features of Spontaneous Recurrent Seizures in a Mouse Model of Extended Hippocampal Kindling*.  
+**Cerebral Cortex Communications**, 2(1):tgab004.  
+https://doi.org/10.1093/texcom/tgab004  
+[PMCID: PMC8152854](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152854/)
 
 ---
 
