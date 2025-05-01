@@ -128,7 +128,7 @@ UseCase/FineTuning_ViT_on_SpectrogramImages.py
 
 Note: Replace the paths with your local installed package path
 
-<img src="UseCase/Img/Model_Architecture.png" alt="Model Architecture" width="60%" style="display: inline-block; border: 1px solid #ccc; padding: 4px; margin-right: 1%;">
+<img src="UseCase/Img/Model_Architecture.png" alt="Model Architecture" width="80%" style="display: inline-block; border: 1px solid #ccc; padding: 4px; margin-right: 1%;">
 
 ---
 
