@@ -159,12 +159,14 @@ Note: Replace the paths with your local installed package path
 ---
 
 ### Funding Acknowledgment
+
 This work was supported by the Canadian Neuroanalytics Scholars (CNS) Program.
 
 ---
 
 ### Citation
-Bahador N, Skinner F, Zhang L, Lankarany M. Ictal-related chirp as a biomarker for monitoring seizure progression. bioRxiv. Published online 29 October 2024. doi:10.1101/2024.10.29.620811.
+
+Bahador, N., & Lankarany, M. (2025). Chirp localization via fine-tuned transformer model: A proof-of-concept study. arXiv preprint arXiv:2503.22713.
 
 ---
 
