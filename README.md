@@ -143,12 +143,18 @@ UseCase/FineTuning_ViT_on_SpectrogramImages.py
 
 Note: Replace the paths with your local installed package path
 
-<img src="UseCase/Img/Model_Architecture.png" alt="Model Architecture" width="80%" style="display: inline-block; border: 1px solid #ccc; padding: 4px; margin-right: 1%;">
-Fig. Model Architecture trained on Spectrogram Images
+#### Results
 
-<img src="UseCase/Img/Refinement_of_ROIs_with_Chirp_Over_Epochs.png" alt="ROI Refinement" width="80%" style="display: inline-block; border: 1px solid #ccc; padding: 4px; margin-right: 1%;">
-Fig. Refinement of Predicted ROIs Including Chirp Features Over Epochs 
-
+<div style="display: flex; justify-content: space-between; gap: 1%;">
+  <div style="flex: 1;">
+    <img src="UseCase/Img/Model_Architecture.png" alt="Model Architecture" width="100%" style="border: 1px solid #ccc; padding: 4px;">
+    <p style="text-align: center;">Fig. Model Architecture Trained on Spectrogram Images</p>
+  </div>
+  <div style="flex: 1;">
+    <img src="UseCase/Img/Refinement_of_ROIs_with_Chirp_Over_Epochs.png" alt="ROI Refinement" width="100%" style="border: 1px solid #ccc; padding: 4px;">
+    <p style="text-align: center;">Fig. Refinement of Predicted ROIs Including Chirp Features Over Epochs</p>
+  </div>
+</div>
 
 ---
 
