@@ -170,3 +170,6 @@ Bahador, N., & Lankarany, M. (2025). Chirp localization via fine-tuned transform
 
 ---
 
+![GitHub stars](https://img.shields.io/github/stars/nbahador/Seizure_TimeFreqROI_Annotator?style=social)
+
+---
